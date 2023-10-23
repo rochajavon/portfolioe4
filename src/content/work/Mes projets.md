@@ -1,60 +1,67 @@
 ---
 title: Mes projets
 publishDate: 2020-03-02 00:00:00
-img: /assets/pfsense.jpg
+img: /assets/actived.jpg
 img_alt: Iridescent riépples of a bright blue and pink liquid
 description: | 
-  Mes projets sont pfSense et OpenVPN
+  Mes projets sont l'Active Directory et les NAS.
 tags:
   - Cybersécurité
-  - pfSense
-  - OpenVPN
+  - Active Directory
+  - NAS
 ---
 
-## pfSense
+## Active Directory
 
-> pfSense est une distribution open-source de pare-feu et de routeur basée sur FreeBSD, un système d'exploitation Unix-like. Il est conçu pour être utilisé comme solution de pare-feu, de routage et de sécurité réseau dans les environnements informatiques professionnels et domestiques.
+> Active Directory (AD) est un service de gestion d'annuaire développé par Microsoft.
 
- pfSense offre une gamme de fonctionnalités avancées pour gérer et sécuriser les réseaux, en faisant un choix populaire pour les administrateurs système et les responsables de la sécurité.
+ Il fait partie intégrante des systèmes d'exploitation Windows Server et est principalement utilisé pour gérer et organiser les ressources réseau d'une organisation, notamment les utilisateurs, les ordinateurs, les groupes, les imprimantes, les serveurs, les politiques de sécurité, et d'autres objets liés au réseau.
+ Voici un aperçu des principales fonctionnalités et utilisations d'Active Directory :
 
-Voici quelques-unes des fonctionnalités et des capacités de pfSense :
+1. Annuaire centralisé : Active Directory offre un emplacement centralisé pour stocker des informations sur les ressources du réseau et les utilisateurs qui y accèdent. Cela simplifie la gestion et l'organisation des ressources.
 
-Pare-feu : pfSense permet de définir des règles de pare-feu pour contrôler le trafic entrant et sortant, bloquer les menaces, filtrer le contenu et garantir la sécurité du réseau.
+2. Authentification et autorisation : Active Directory gère l'authentification des utilisateurs et l'autorisation d'accès aux ressources en définissant des politiques de sécurité et des permissions spécifiques pour chaque utilisateur ou groupe.
 
-Routage : Il offre des fonctionnalités de routage avancées pour diriger le trafic entre les différentes interfaces réseau, notamment la prise en charge de la gestion des tables de routage, de la mise en réseau virtuel privé (VPN) et des routes statiques.
+3. Gestion des comptes d'utilisateurs : AD permet de créer, de modifier, de supprimer et de gérer les comptes d'utilisateurs, y compris les mots de passe, les profils utilisateur, et d'autres informations relatives aux utilisateurs.
 
-VPN : pfSense prend en charge divers protocoles VPN, notamment OpenVPN, IPsec, L2TP, et PPTP, ce qui permet de créer des connexions sécurisées entre différents sites et de permettre aux utilisateurs distants de se connecter en toute sécurité au réseau.
+4. Groupes : Les utilisateurs peuvent être regroupés en unités d'organisation (OU) et dans des groupes, facilitant la gestion des autorisations et des politiques de sécurité pour un ensemble d'utilisateurs similaires.
 
-Filtrage de contenu : Il peut être utilisé pour bloquer ou filtrer le contenu Web indésirable en utilisant des listes de blocage de sites et des fonctions de filtrage DNS.
+5. Intégration avec des services réseau : Active Directory peut être utilisé pour intégrer des services tels que le contrôleur de domaine, le serveur DNS, le serveur DHCP, le serveur de fichiers, et d'autres services réseau dans un environnement Windows.
 
-Gestion de la bande passante : pfSense permet de gérer la bande passante en limitant la vitesse de connexion pour certains utilisateurs ou types de trafic, ce qui peut être utile pour garantir une utilisation équitable des ressources réseau.
+6. Réplication des données : Les données d'Active Directory sont répliquées entre les contrôleurs de domaine, ce qui garantit la redondance et la disponibilité des informations d'annuaire, tout en permettant l'accès aux utilisateurs de n'importe quel emplacement géographique.
 
-Sécurité avancée : Il propose des fonctionnalités de détection d'intrusion (IDS) et de prévention d'intrusion (IPS) pour protéger contre les attaques réseau et les vulnérabilités.
+7. Gestion des stratégies de groupe : Active Directory permet la création et la gestion des Stratégies de Groupe (Group Policies), qui définissent les configurations de sécurité et les paramètres des postes de travail et des serveurs.
 
-Tableaux de bord et journalisation : pfSense offre des outils de surveillance du trafic en temps réel, des journaux d'événements et des alertes pour suivre et analyser le comportement du réseau.
+8. Single Sign-On (SSO) : L'authentification unique permet aux utilisateurs de se connecter une seule fois à leur poste de travail, puis d'accéder à diverses ressources du réseau sans avoir à ressaisir leurs informations d'identification.
 
-Haute disponibilité : Il prend en charge la configuration de redondance et de basculement pour garantir une disponibilité élevée du réseau.
+9. Sécurité : Active Directory offre des fonctionnalités de sécurité avancées, telles que la gestion des certificats, l'audit des actions des utilisateurs et la gestion des mots de passe.
 
-pfSense est largement utilisé dans les environnements professionnels et est apprécié pour sa fiabilité, sa sécurité et sa flexibilité. En tant que système open source, il est également populaire auprès de la communauté des utilisateurs, ce qui signifie qu'il bénéficie d'une communauté active qui fournit des mises à jour, des correctifs et des extensions.
+10. Support multiplateforme : Bien qu'initialement conçu pour les environnements Windows, Active Directory peut être étendu pour prendre en charge d'autres plates-formes via des protocoles tels que LDAP (Lightweight Directory Access Protocol).
 
-## OpenVPN
+Active Directory est largement utilisé dans les entreprises et les organisations pour simplifier la gestion des ressources informatiques, renforcer la sécurité et améliorer l'efficacité des opérations réseau. Il joue un rôle essentiel dans la gestion des identités et des accès au sein des environnements Windows.
 
-> OpenVPN est un logiciel open source qui offre des solutions de réseau privé virtuel (VPN). Il est largement utilisé pour établir des connexions VPN sécurisées entre des ordinateurs, des réseaux locaux (LAN) ou des réseaux distants via Internet ou d'autres réseaux publics.
+## NAS
 
-Les VPN créés à l'aide d'OpenVPN permettent de sécuriser le trafic réseau en le chiffrant, offrant ainsi une confidentialité et une sécurité accrues pour les communications et les transferts de données.
+> Le terme "NAS" est l'acronyme de "Network-Attached Storage" en anglais, ce qui se traduit en français par "Stockage en Réseau". Un NAS est un périphérique de stockage de données qui est connecté à un réseau informatique et qui permet le partage et la sauvegarde de fichiers entre plusieurs appareils via ce réseau.
 
-Voici quelques caractéristiques clés d'OpenVPN :
+ Il est généralement utilisé pour stocker et partager des fichiers, des documents, des médias, des sauvegardes, et d'autres données au sein d'un environnement domestique ou professionnel. Voici quelques caractéristiques clés des NAS :
 
-Chiffrement : OpenVPN utilise des protocoles de chiffrement forts pour sécuriser les données transitant sur le réseau. Il prend en charge une variété d'options de chiffrement, notamment SSL/TLS, et permet de choisir la méthode de chiffrement appropriée en fonction des besoins de sécurité.
+Connectivité réseau : Les NAS sont équipés de ports Ethernet pour se connecter au réseau local, qu'il s'agisse d'un réseau câblé ou sans fil. Certains modèles plus récents peuvent également avoir des ports 10 Gigabit Ethernet pour des vitesses de transfert plus rapides.
 
-Multiplateforme : OpenVPN est compatible avec plusieurs systèmes d'exploitation, notamment Windows, macOS, Linux, Android, et iOS. Il peut donc être utilisé sur une grande variété de dispositifs et de systèmes.
+Stockage évolutif : Les NAS sont disponibles dans diverses capacités de stockage, allant de quelques téraoctets à plusieurs pétaoctets. Ils permettent également l'ajout de disques durs supplémentaires, ce qui en fait une solution évolutive pour le stockage de données.
 
-Flexibilité : OpenVPN est hautement configurable, ce qui permet aux administrateurs réseau de personnaliser les paramètres en fonction des exigences spécifiques de leur réseau, de leur sécurité et de leurs performances.
+Système d'exploitation intégré : Les NAS fonctionnent sur un système d'exploitation spécialisé qui permet la configuration, la gestion et le contrôle du stockage, ainsi que l'exécution de diverses applications. Les systèmes d'exploitation couramment utilisés pour les NAS incluent Synology DSM, QNAP QTS, et FreeNAS.
 
-Authentification : Il prend en charge diverses méthodes d'authentification, notamment les certificats, les noms d'utilisateur/mots de passe, et les clés pré-partagées, ce qui permet de contrôler l'accès au réseau VPN.
+Partage de fichiers : Les NAS facilitent le partage de fichiers entre plusieurs utilisateurs et appareils connectés au réseau. Vous pouvez définir des autorisations d'accès pour contrôler qui peut voir et modifier les fichiers stockés.
 
-Mode d'utilisation : OpenVPN prend en charge deux modes principaux : le mode "site à site" (ou LAN à LAN), qui connecte des réseaux locaux distants, et le mode "client à site" (ou utilisateur à site), qui permet aux utilisateurs individuels de se connecter de manière sécurisée à un réseau distant.
+Sauvegardes : Les NAS sont souvent utilisés pour effectuer des sauvegardes automatisées de données provenant d'ordinateurs, de smartphones, ou d'autres périphériques. Cela permet de protéger les données importantes contre la perte.
 
-Tunneling : OpenVPN utilise des tunnels pour encapsuler les données, ce qui signifie que le trafic est acheminé de manière sécurisée à travers un canal dédié sur le réseau, masquant ainsi les données aux yeux des tiers.
+Multimédia : Certains NAS sont équipés de serveurs multimédias intégrés qui permettent le streaming de contenu audio et vidéo vers des appareils connectés, tels que les téléviseurs intelligents ou les lecteurs multimédias.
 
-OpenVPN est souvent utilisé dans un contexte professionnel pour sécuriser les connexions entre différents sites d'une entreprise, offrir un accès distant sécurisé aux employés, ou connecter des utilisateurs itinérants. Il est également apprécié pour sa stabilité, sa sécurité et sa robustesse. En raison de sa nature open source, il est possible de l'adapter aux besoins spécifiques d'une organisation et il est régulièrement mis à jour pour résoudre d'éventuelles vulnérabilités et améliorer ses performances.
+Applications tierces : Les systèmes d'exploitation des NAS permettent généralement l'installation d'applications tierces pour étendre leurs fonctionnalités, comme la gestion de sites web, la surveillance vidéo, la gestion de documents, etc.
+
+Sécurité : Les NAS offrent des options de sécurité telles que le chiffrement des données, l'authentification à deux facteurs, et les pare-feu pour protéger les données stockées contre les accès non autorisés.
+
+Accessibilité à distance : La plupart des NAS permettent l'accès aux données stockées à distance via Internet, ce qui est utile pour accéder à vos fichiers lorsque vous n'êtes pas chez vous ou au bureau.
+
+Les NAS sont polyvalents et peuvent être adaptés à divers besoins, de la simple sauvegarde de fichiers personnels au stockage de données professionnel et aux applications multimédias. Ils offrent une solution centralisée de stockage de données qui simplifie la gestion des informations au sein d'un réseau local.

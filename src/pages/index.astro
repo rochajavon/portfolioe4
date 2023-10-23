@@ -30,14 +30,12 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Bonjour, je m'appelle Ilias Frej"
-					tagline="Je suis actuellement étudiant en informatique à Cergy."
+					title="Bonjour, je suis Roch Ajavon."
+					tagline="Je suis étudiant en BTS SIO SISR en alternance à l'Ensitech à Cergy."
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> MySQL</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Sociable</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+
 					</div>
 				</Hero>
 
@@ -51,8 +49,7 @@ const projects = (await getCollection('work'))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mes projets</h3>
-					<p>Voici mes projets :</p>
+					<h3>Sujets annexes :</h3>
 				</header>
 
 				<div class="gallery">
@@ -79,14 +76,14 @@ const projects = (await getCollection('work'))
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Mon alternance</h3>
 					<p>
-						Actuellement, je suis en alternance chez Impactera en tant qu'alternant intégrateur logiciel.
+						Je suis en alternance chez Suez Eau de France en tant qu'administrateur système et réseaux.
 					</p>
 				</header>
 
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['CCH Tagetik', 'ERP', 'CPM', 'Logiciel de reporting financier', 'MySQL'].map((brand) => (
+							['A2i tools', 'Remote Desktop Protocol', 'Visioconférence', 'TopKapi', 'Logiciel de supervision'].map((brand) => (
 								<li class="mention-card">
 									<p>{brand}</p>
 								</li>

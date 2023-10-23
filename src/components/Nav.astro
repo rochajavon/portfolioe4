@@ -5,25 +5,23 @@ import type { iconPaths } from './IconPaths';
 
 /** Main menu items */
 const textLinks: { label: string; href: string }[] = [
-	{ label: 'Accueil', href: '/' },
-	{ label: 'Sujet de veille', href: '/sujet/' },
+	{ label: 'Page principale', href: '/' },
+	{ label: 'Compétence', href: '/tableau/' },
 	{ label: 'Mon CV', href: '/cv/' },
-	{ label: 'Tableau de compétence', href: '/tableau/' },
+
+	,
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
 const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
-	{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/ilias-frej-a79140246?utm_source=share&utm_compaign=share_via&utm_content=profile&utm_medium=ios_app', icon: 'linkedin-logo' },
+	{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/roch-ajavon-4b9a14228/', icon: 'linkedin-logo' },
 	
 ];
 ---
 
 <nav>
 	<div class="menu-header">
-		<a href="/" class="site-title">
-			<Icon icon="rocket-launch" color="var(--accent-regular)" size="1.6em" gradient />
-			 Le portfolio d'Ilias Frej
-		</a>
+		<a href="/" class="site-title"> </a>
 		<menu-button>
 			<template>
 				<button class="menu-button" aria-expanded="false">
