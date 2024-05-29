@@ -6,7 +6,6 @@ img_alt: Iridescent riépples of a bright blue and pink liquid
 description: | 
   Mes projets sont l'Active Directory et les NAS.
 tags:
-  - Cybersécurité
   - Active Directory
   - NAS
 ---
