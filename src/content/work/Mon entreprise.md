@@ -13,7 +13,7 @@ tags:
 
 ## Suez
 
-> Je travaille pour Suez Eau de France, en tant qu'administrateur système et réseaux.
+> Je travaille pour Suez Eau de France, en tant que Technicien Systèmes & Réseaux.
 
 Suez Eau de France est une entreprise française de renommée mondiale spécialisée dans le secteur de l'eau et de l'assainissement. Fondée en 2002, Suez Eau de France fait partie du groupe Suez, un leader mondial dans la gestion de l'eau, des déchets et de l'énergie. L'entreprise se concentre principalement sur la gestion de l'eau, fournissant des services essentiels à des millions de personnes en France et dans le monde.
 
