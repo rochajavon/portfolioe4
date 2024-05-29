@@ -11,7 +11,22 @@ tags:
   - AI
 ---
 
-## L'intelligence artificielle 
+## L'intelligence artificielle
+
+Avant d'aller plus loin, il est important de savoir ce qu'est une veille technologique.
+
+Qu'est-ce qu'une veille technologique ?
+La veille technologique est une pratique essentielle dans l’univers professionnel. Elle consiste à surveiller et analyser continuellement les tendances et évolutions dans le domaine des technologies et de l’innovation, afin de rester à la pointe de son secteur d’activité.
+
+Elle permet de suivre les avancées technologiques, les nouvelles technologies émergentes, les évolutions des besoins et des usages des consommateurs ainsi que les stratégies de la concurrence sur le marché. En anticipant les évolutions du marché et de l’environnement, la veille technologique permet de détecter de nouvelles opportunités pour innover et de mieux évaluer les risques potentiels. Elle constitue un outil efficace pour améliorer la prise de décision en matière de stratégie d’entreprise, de R&D et de marketing.
+
+Pour cela, la veille technologique peut s’appuyer sur différentes sources telles que les revues scientifiques, les conférences, les réseaux sociaux, les brevets, les rapports d’analystes et les bases de données spécialisées.
+Les types de sources utilisées
+Les sources d’information et les actualités se trouvent sur diverses plateformes, notamment les sites d’actualités tels que Le Monde informatique, les bases de données gratuites, des sites spécialisés, ainsi que les blogs tenus par des experts du domaine.
+
+Pour m’aider dans mes recherches, j’ai également eu recours à Google Alertes. J’y inscrivais les mots-clés dont j’avais besoin pour mes recherches (comme par exemple « la télémédecine ») et je recevais les notifications par mail à chaque fois qu’un article sortait sur ce sujet là.
+
+Passons maintenant au vif du sujet !
 
 > L'intelligence artificielle (IA) est un domaine de l'informatique qui se concentre sur la création de systèmes capables d'imiter certains aspects de l'intelligence humaine. Ces systèmes sont conçus pour effectuer des tâches qui nécessitent généralement une intelligence humaine, telles que la reconnaissance de la parole, la vision par ordinateur, la prise de décision, la résolution de problèmes et l'apprentissage.
 
